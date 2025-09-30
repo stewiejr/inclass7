@@ -16,12 +16,12 @@ class MoodModel with ChangeNotifier {
   String get currentMoodAsset => _currentMoodAsset;
 
   void setHappy() {
-    _currentMoodAsset = 'assets/images/happy.png';
+    _currentMoodAsset = 'assets/images/happy.jpg';
     notifyListeners();
   }
 
   void setSad() {
-    _currentMoodAsset = 'assets/images/sad.png';
+    _currentMoodAsset = 'assets/images/sad.jpg';
     notifyListeners();
   }
 
